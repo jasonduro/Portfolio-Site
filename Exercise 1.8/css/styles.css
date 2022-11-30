@@ -39,6 +39,7 @@ h3 {
 
 a {
     color: var(--primary-color);
+    text-decoration: none;
 }
 
 a:visited {
@@ -105,8 +106,7 @@ button:focus
 /* Created this "about" class in my about.html file to try to center my text and button */
 
 .about {
-    flex-direction: column;
-    text-align:center;
+    text-align: center;
 }
 
 * {
