@@ -1,0 +1,19 @@
+<!-- This file is for old code -->            
+            <!-- below is the old Form code from the intro to front-end course -->
+            <div class="container">
+                    <form action="" method="post" id="contact-form">
+
+                        <label for="fname">Name:</label>
+                        <input type="text" id="fname" name="firstname" placeholder="Your full name" required> 
+
+                        <label class="standard-label" for="contact-email">E-mail:</label>
+                        <input type="email" id="contact-email" required><br>
+
+                        <label class="standard-label" for="contact-phone-number">Phone Number: </label>
+                        <input type="tel" id="contact-phone-number" pattern="\d{3}[\-]\d{3}[\-]\d{4}"><br>
+
+                        <label class="standard-label" for="contact-message">Message: </label>
+                        <textarea id="contact-message" maxlength="240" required></textarea>
+                        <input type="submit" value="Send message"> 
+                    </form>
+                </div>

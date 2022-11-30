@@ -32,40 +32,54 @@
                         </ul>
                     </nav>
                 </header>
-            <div>
+            <div class="container">
                 <h1>Contact</h1>
                 <div>
                     Jason LaManque<br>
                     Schillerplatz 18a<br>
                     55116 Mainz<br>
                     Deutschland<br>
-                    <p>Tel: Click <a href="tel:=+491733431171" aria-label="+ 4 9. 1 7 3. 3 4 3 1 1 7 1.">+49 173 3431171</a> to Call Jason</p>
+                    <p>Tel: Click <a href="tel:=+491733431171" aria-label="+ 4 9. 1 7 3. 3 4 3 1 1 7 1.">+49 173 3431171</a> to call Jason</p>
                     Email: <a href="mailto:product@jasonlamanque.com">product@jasonlamanque.com</a><br>
                     <!--Below is the C2A - need to change from h3 to a button later-->
                     <h2><a href="mailto:product@jasonlamanque.com">Contact Me</a></h2>
                 </div>
             </div>
-                <div class="container">
-                    <form action="" method="post" id="contact-form">
-
-                        <label for="fname">Name</label>
-                        <input type="text" id="fname" name="firstname" placeholder="Your full name">
-
-                        <label for="fname">Name</label>
-                        <input type="text" id="fname" name="firstname" placeholder="Your full name">
-
-                        <label class="standard-label" for="contact-email">E-mail: </label>
-                        <input type="email" id="contact-email" required><br>
-
-                        <label class="standard-label" for="contact-phone-number">Telephone: </label>
-                        <input type="tel" id="contact-phone-number" pattern="\d{3}[\-]\d{3}[\-]\d{4}"><br>
-
-                        <label class="standard-label" for="contact-message">Message: </label>
-                        <textarea id="contact-message" maxlength="240" required></textarea>
-                        <input type="submit" value="Send message"> 
-                    </form>
-                </div>
             
+            <div class="container">
+                <form action="" method="post" id="contact-form">
+              
+                  <label for="fname">First Name</label>
+                  <input type="text" id="fname" name="firstname" placeholder="Your name..">
+              
+                  <label for="lname">Last Name</label>
+                  <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+              
+                  <label for="Subject">Subject</label>
+                  <select id="subject" name="subject">
+                    <option value="product-management">Product Management</option>
+                    <option value="full-stack-development">Full Stack Development</option>
+                    <option value="blucast-audio">BluCast Audio</option>
+                    <option value="design-sprint">Design Sprints</option>
+                    <option value="other">Other</option>
+                  </select>
+              
+                  <label for="message">Message</label>
+                  <textarea id="message" name="message" placeholder="Your message.." style="height:200px"></textarea>
+              
+                  <input type="submit" value="Submit">
+              
+                </form>
+              </div>
+                          
+        <footer class="page-footer">
+            <p>Find me on</p>
+                <div class="social-media">
+                    <img src="img/github_logo.svg" alt="Github Logo image">
+                    <img src="img/twitter_logo.svg" alt="Twitter logo image">
+                    <img src="img/linkedinv2_logo.svg" alt="LinkedIn logo image">
+                </div>
+        </footer>
             <!-- The script below is for checking the accessibility of each page. Not needed in production page
                 <script src="js/tota11y.min.js"></script> . 
             -->
