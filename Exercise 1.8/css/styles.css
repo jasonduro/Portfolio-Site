@@ -17,6 +17,9 @@ body {
     /* Sets the body font size to 16px */
     line-height: 1.6;
     /* specifies the height of a line of text */
+    position: relative;
+    padding-bottom: 95px;
+    min-height: 100vh;
 }
 
 h1 {
@@ -117,6 +120,9 @@ button:focus
     text-align: center;
     justify-content: flex-end;
     margin-top: auto;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }
 
 .page-header {
@@ -125,7 +131,7 @@ button:focus
     padding: 20px;
     border-bottom-style: solid;
     border-width: 1px;
-    border-color: #cacaca;
+    border-color: var(--background-color);
 }
 
 .page-header__item {
@@ -150,18 +156,12 @@ button:focus
     list-style-type: none;
 }
 
-/* for the home page social media links to not have an underline */ 
-.social-media {
-    text-decoration: none;
-}
-
 
 /* start of the grid fallback */
 .grid__item {
     display: inline-block;
     width: 33%;
 }
-
 /*end of the grid fallback */ 
 
 @supports (display: grid) {
