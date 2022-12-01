@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Jason LaManque - Portfolio</title>
+        <link rel="shortcut icon" href="img/headshot.png" >
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="css/styles.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+        <body>
+            <header class="page-header">
+                <!-- Add Company Logo here -->
+                <img src="img/Produx Sprint white_logo_color_background_small.png" alt="Produx Sprint Logo that shows a capital P" class="page-header__item"> 
+                    <nav class="main-navigation page-header__item">
+                        <ul role="menubar" class="navigation-list">
+                            <li role="presentation">
+                                <a href="index.html" role="menuitem" class="navigation-list__item navigation-list__item--active">Home</a>
+                            </li>    
+                            <li role="presentation">
+                                <a href="about.html" role="menuitem" class="navigation-list__item">About</a>
+                            </li>
+                            <li role="presentation">
+                                <a href="work.html" role="menuitem" class="navigation-list__item">Work</a>
+                            </li>
+                            <li role="presentation">
+                                <a href="contact.html" role="menuitem" class="navigation-list__item">Contact</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </header>
+            <div class="heading">
+                <h1>Contact</h1>
+                <div>
+                    Jason LaManque<br>
+                    Schillerplatz 18a<br>
+                    55116 Mainz<br>
+                    Deutschland<br>
+                    <p>Tel: Click <a href="tel:=+491733431171" aria-label="+ 4 9. 1 7 3. 3 4 3 1 1 7 1.">+49 173 3431171</a> to call Jason</p>
+                    Email: <a href="mailto:product@jasonlamanque.com">product@jasonlamanque.com</a><br>
+                    <!--Below is the C2A - need to change from h3 to a button later-->
+                    <h2><a href="mailto:product@jasonlamanque.com">Contact Me</a></h2>
+                </div>
+            </div>
+            
+            <div class="container">
+                <form action="" method="post" id="contact-form">
+              
+                  <label for="fname">First Name</label>
+                  <input type="text" id="fname" name="firstname" placeholder="Your name..">
+              
+                  <label for="lname">Last Name</label>
+                  <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+              
+                  <label for="Subject">Subject</label>
+                  <select id="subject" name="subject">
+                    <option value="product-management">Product Management</option>
+                    <option value="full-stack-development">Full Stack Development</option>
+                    <option value="blucast-audio">BluCast Audio</option>
+                    <option value="design-sprint">Design Sprints</option>
+                    <option value="other">Other</option>
+                  </select>
+              
+                  <label for="message">Message</label>
+                  <textarea id="message" name="message" placeholder="Your message.." style="height:200px"></textarea>
+              
+                  <input type="submit" value="Submit">
+              
+                </form>
+              </div>
+           
+              <!-- The script below is for checking the accessibility of each page. Not needed in production page
+                <script src="js/tota11y.min.js"></script> . 
+            -->
+            <footer class="page-footer">
+                <p>Find me on</p>
+                    <div class="social-media">
+                    <a href="https://github.com/jasonduro" target="_blank">
+                        <img src="img/github_logo.svg" alt="Github Logo image">
+                    </a>
+                    <a href="https://twitter.com/JasonLaManque" target="_blank"> 
+                        <img src="img/twitter_logo.svg" alt="Twitter logo image">
+                    </a>
+                    <a href="https://www.linkedin.com/in/jasonlamanque/" target="_blank">
+                        <img src="img/linkedinv2_logo.svg" alt="LinkedIn logo image">
+                    </a>
+                    </div>
+            </footer>
+        </body>
+</html>
