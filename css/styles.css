@@ -177,7 +177,7 @@ button:focus
 }
 
 .grid__item {
-    background-color: lightgrey;
+    background-color: var(--background-color);
     width: auto;
     min-height: auto;
     margin: 20px;
