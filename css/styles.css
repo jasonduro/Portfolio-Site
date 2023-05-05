@@ -189,6 +189,12 @@ button:focus
 }
 }
 
+/* Image Resize */
+.thumbnail {
+    width: 400px;
+    height: auto;
+}
+
 /* Start of my CSS Animationo code */
 @keyframes color-change {
     0%  {
